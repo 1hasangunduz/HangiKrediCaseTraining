@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25e345cc-cf33-4d54-a202-d9234e152b95" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="25e345cc-cf33-4d54-a202-d9234e152b95" name="Changes" comment="dev : good job.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/SeleniumBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/SeleniumBasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data/GetData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/GetData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HangiKrediPages/CaseActionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HangiKrediPages/CaseActionPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HangiKrediPages/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HangiKrediPages/HomePageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,18 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="TestNG.HomePageTests.controlSponsorBankSuggestion">
     <configuration name="HomePageTests.controlCreditSuggestion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HangiKrediCaseStudy" />
@@ -70,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTests.controlKrediTabHoverElement" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTests.controlCreditTabHoverElement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HangiKrediCaseStudy" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +74,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="HangiKrediPages" />
       <option name="MAIN_CLASS_NAME" value="HangiKrediPages.HomePageTests" />
-      <option name="METHOD_NAME" value="controlKrediTabHoverElement" />
+      <option name="METHOD_NAME" value="controlCreditTabHoverElement" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,7 +141,7 @@
         <item itemvalue="TestNG.HomePageTests.controlSponsorBankSuggestion" />
         <item itemvalue="TestNG.HomePageTests.controlCreditSuggestion" />
         <item itemvalue="TestNG.HomePageTests.controlResponseCode" />
-        <item itemvalue="TestNG.HomePageTests.controlKrediTabHoverElement" />
+        <item itemvalue="TestNG.HomePageTests.controlCreditTabHoverElement" />
         <item itemvalue="TestNG.HomePageTests.sadsdad" />
       </list>
     </recent_temporary>
@@ -163,8 +157,23 @@
       <workItem from="1672692279250" duration="10950000" />
       <workItem from="1672742258745" duration="5904000" />
       <workItem from="1672814520368" duration="5718000" />
-      <workItem from="1672867437739" duration="6709000" />
+      <workItem from="1672867437739" duration="7028000" />
     </task>
+    <task id="LOCAL-00001" summary="dev : good job.">
+      <created>1672875818374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875818374</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dev : good job.">
+      <created>1672875898368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875898368</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,5 +189,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dev : good job." />
+    <option name="LAST_COMMIT_MESSAGE" value="dev : good job." />
   </component>
 </project>

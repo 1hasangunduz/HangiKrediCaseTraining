@@ -11,7 +11,7 @@ public class HomePageTests extends BaseTest {
 
 
     @Test
-    public void controlKrediTabHoverElement() throws InterruptedException {
+    public void controlCreditTabHoverElement() throws InterruptedException {
         new HomePage()
                 .navigateToUrl(GetData.URL.MASTER.value)
                 .hoverCredit()
@@ -27,7 +27,6 @@ public class HomePageTests extends BaseTest {
         new HomePage()
                 .postRequest(url)
         ;
-
     }
 
     @Test

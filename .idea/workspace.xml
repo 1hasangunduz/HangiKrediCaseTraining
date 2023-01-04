@@ -4,14 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25e345cc-cf33-4d54-a202-d9234e152b95" name="Changes" comment="" />
+    <list default="true" id="25e345cc-cf33-4d54-a202-d9234e152b95" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/SeleniumBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/SeleniumBasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/GetData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/GetData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HangiKrediPages/CaseActionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HangiKrediPages/CaseActionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HangiKrediPages/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HangiKrediPages/HomePageTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JmnlccylqX2eJlAF5VTKTVPiIe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,13 +39,119 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="TestNG.HomePageTests.controlSponsorBankSuggestion">
+    <configuration name="HomePageTests.controlCreditSuggestion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HangiKrediCaseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HangiKrediPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HangiKrediPages" />
+      <option name="MAIN_CLASS_NAME" value="HangiKrediPages.HomePageTests" />
+      <option name="METHOD_NAME" value="controlCreditSuggestion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTests.controlKrediTabHoverElement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HangiKrediCaseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HangiKrediPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HangiKrediPages" />
+      <option name="MAIN_CLASS_NAME" value="HangiKrediPages.HomePageTests" />
+      <option name="METHOD_NAME" value="controlKrediTabHoverElement" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTests.controlResponseCode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HangiKrediCaseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HangiKrediPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HangiKrediPages" />
+      <option name="MAIN_CLASS_NAME" value="HangiKrediPages.HomePageTests" />
+      <option name="METHOD_NAME" value="controlResponseCode" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTests.controlSponsorBankSuggestion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HangiKrediCaseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HangiKrediPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HangiKrediPages" />
+      <option name="MAIN_CLASS_NAME" value="HangiKrediPages.HomePageTests" />
+      <option name="METHOD_NAME" value="controlSponsorBankSuggestion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTests.sadsdad" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HangiKrediCaseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HangiKrediPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HangiKrediPages" />
+      <option name="MAIN_CLASS_NAME" value="HangiKrediPages.HomePageTests" />
+      <option name="METHOD_NAME" value="sadsdad" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HomePageTests.controlSponsorBankSuggestion" />
+        <item itemvalue="TestNG.HomePageTests.controlCreditSuggestion" />
+        <item itemvalue="TestNG.HomePageTests.controlResponseCode" />
+        <item itemvalue="TestNG.HomePageTests.controlKrediTabHoverElement" />
+        <item itemvalue="TestNG.HomePageTests.sadsdad" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,8 +160,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672692277925</updated>
+      <workItem from="1672692279250" duration="10950000" />
+      <workItem from="1672742258745" duration="5904000" />
+      <workItem from="1672814520368" duration="5718000" />
+      <workItem from="1672867437739" duration="6709000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

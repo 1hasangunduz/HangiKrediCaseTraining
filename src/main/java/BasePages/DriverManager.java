@@ -1,4 +1,4 @@
-package Utils;
+package BasePages;
 
 import org.openqa.selenium.WebDriver;
 

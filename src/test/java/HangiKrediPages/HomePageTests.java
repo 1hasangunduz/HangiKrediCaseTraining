@@ -12,7 +12,7 @@ public class HomePageTests extends BaseTest {
 
     @Test
     public void controlKrediTabHoverElement() throws InterruptedException {
-        new CaseActionPage()
+        new HomePage()
                 .navigateToUrl(GetData.URL.MASTER.value)
                 .hoverCredit()
                 .controlCreditElement()
@@ -24,7 +24,7 @@ public class HomePageTests extends BaseTest {
     @Test
     @Parameters({"url"})
     public void controlResponseCode(@Optional("https://www.hangikredi.com/kredi/ihtiyac-kredisi") String url) {
-        new CaseActionPage()
+        new HomePage()
                 .postRequest(url)
         ;
 
@@ -32,7 +32,7 @@ public class HomePageTests extends BaseTest {
 
     @Test
     public void controlResponseCode() {
-        new CaseActionPage()
+        new HomePage()
                 .postRequest(GetData.URL.PERSONAL_FINANCE_CREDIT.value)
         ;
     }
@@ -40,7 +40,7 @@ public class HomePageTests extends BaseTest {
     @Test
     @Parameters({"loanTerm"})
     public void controlCreditSuggestion(@Optional("12") String loanTerm) throws InterruptedException {
-        new CaseActionPage()
+        new HomePage()
                 .navigateToUrl(GetData.URL.PERSONAL_FINANCE_CREDIT.value)
                 .controlCreditSuggestions(loanTerm)
         ;
@@ -49,7 +49,7 @@ public class HomePageTests extends BaseTest {
     @Test
     @Parameters({"loanTerm"})
     public void controlSponsorBankSuggestion(@Optional("12") String loanTerm) throws InterruptedException {
-        new CaseActionPage()
+        new HomePage()
                 .navigateToUrl(GetData.URL.PERSONAL_FINANCE_CREDIT.value)
                 .controlCreditSuggestions(loanTerm)
                 .controlSponsorBankDetails()

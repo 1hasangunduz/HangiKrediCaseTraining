@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 
-public class CaseActionPage extends SeleniumBasePage {
+public class HomePage extends SeleniumBasePage {
 
 
     @FindBy(xpath = "//*[@class='navigation']//*[@class='has_submenu']/a[@href='/kredi']")
@@ -54,12 +54,12 @@ public class CaseActionPage extends SeleniumBasePage {
     List<WebElement> hoverElementCredit;
 
 
-    public CaseActionPage() {
+    public HomePage() {
         PageFactory.initElements(DriverManager.getDriver(), this);
     }
 
 
-    public CaseActionPage navigateToUrl(String url) throws InterruptedException {
+    public HomePage navigateToUrl(String url) throws InterruptedException {
         DriverManager.getDriver().navigate().to(url);
         Thread.sleep(5000);
         System.out.println(url + "  --> Sayfasinda land olunacak.");
@@ -67,7 +67,7 @@ public class CaseActionPage extends SeleniumBasePage {
         return this;
     }
 
-    public CaseActionPage hoverCredit() throws InterruptedException {
+    public HomePage hoverCredit() throws InterruptedException {
         Thread.sleep(5000);
         scrollHover(btnCredit, "Kredi butonuna hover yapildi.");
         Thread.sleep(2000);
@@ -103,7 +103,7 @@ public class CaseActionPage extends SeleniumBasePage {
         System.out.println("Kredi vadesi secildi.");
     }
 
-    public CaseActionPage controlCreditSuggestions(String loanTerm) throws InterruptedException {
+    public HomePage controlCreditSuggestions(String loanTerm) throws InterruptedException {
         sendCreditPrice();
         postRequest(DriverManager.getDriver().getCurrentUrl());
         selectLoanTerm(loanTerm);

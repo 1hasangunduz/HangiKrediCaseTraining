@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25e345cc-cf33-4d54-a202-d9234e152b95" name="Changes" comment="dev : good job.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BasePages/DriverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReports/ExtentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReports/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Listener/ExtentIReporterSuiteClassListenerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Listener/ExtentIReporterSuiteListenerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Listener/ExtentITestListenerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Listener/ExtentITestListenerClassAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Listener/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Listener/commons/ExtentTestCommons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Suite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/spark-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/spark-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/SparkReport/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HangiKrediPages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HangiKrediPages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HangiKrediPages/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HangiKrediPages/HomePageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,22 +46,28 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JmnlccylqX2eJlAF5VTKTVPiIe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/hasan.gunduz/Desktop/ataHK/HangiKrediCaseTraining",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="TestNG.HomePageTests.controlSponsorBankSuggestion">
@@ -118,18 +143,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTests.sadsdad" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/hasan.gunduz/Desktop/ataHK/HangiKrediCaseTraining/src/test/Suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HangiKrediCaseStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HangiKrediPages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HangiKrediPages" />
-      <option name="MAIN_CLASS_NAME" value="HangiKrediPages.HomePageTests" />
-      <option name="METHOD_NAME" value="sadsdad" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/Suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -139,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.HomePageTests.controlSponsorBankSuggestion" />
-        <item itemvalue="TestNG.HomePageTests.controlCreditSuggestion" />
+        <item itemvalue="TestNG./Users/hasan.gunduz/Desktop/ataHK/HangiKrediCaseTraining/src/test/Suite.xml" />
         <item itemvalue="TestNG.HomePageTests.controlResponseCode" />
         <item itemvalue="TestNG.HomePageTests.controlCreditTabHoverElement" />
-        <item itemvalue="TestNG.HomePageTests.sadsdad" />
+        <item itemvalue="TestNG.HomePageTests.controlCreditSuggestion" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +175,12 @@
       <workItem from="1672742258745" duration="5904000" />
       <workItem from="1672814520368" duration="5718000" />
       <workItem from="1672867437739" duration="7028000" />
+      <workItem from="1686739849470" duration="310000" />
+      <workItem from="1686740228799" duration="181000" />
+      <workItem from="1686740431798" duration="16000" />
+      <workItem from="1686740512293" duration="708000" />
+      <workItem from="1686741247584" duration="110000" />
+      <workItem from="1686809602851" duration="4049000" />
     </task>
     <task id="LOCAL-00001" summary="dev : good job.">
       <created>1672875818374</created>
@@ -191,6 +214,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="dev : good job." />
     <option name="LAST_COMMIT_MESSAGE" value="dev : good job." />
   </component>

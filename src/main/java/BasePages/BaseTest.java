@@ -1,35 +1,31 @@
 package BasePages;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import ExtentReports.ExtentTestManager;
+import Listener.Listener;
+import Utilities.Log;
+import com.aventstack.extentreports.Status;
+import org.testng.annotations.*;
 
-import java.util.HashMap;
+import java.time.Duration;
 
+import static BasePages.DriverManager.setDriver;
+
+
+
+@Listeners({Listener.class})
 public class BaseTest {
 
-
-    @BeforeMethod
-    public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        DriverManager.setDriver(new ChromeDriver(getChromeOptions()));
+    public static void setupTest(String browser) {
+        setDriver(browser);
+        Log.pass("Window size: " + DriverManager.getDriver().manage().window().getSize());
+        ExtentTestManager.getTest().log(Status.PASS, "Window size: " + DriverManager.getDriver().manage().window().getSize());
+        DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
-        DriverManager.quit();
-    }
-
-    public ChromeOptions getChromeOptions() {
-        HashMap<String, Object> chromePrefs = new HashMap<>();
-        chromePrefs.put("credentials_enable_service", false);
-        chromePrefs.put("profile.password_manager_enabled", false);
-
-        ChromeOptions chromeUp = new ChromeOptions();
-        chromeUp.setExperimentalOption("prefs", chromePrefs);
-        chromeUp.addArguments("--start-fullscreen");
-        return chromeUp;
+        if (DriverManager.getDriver() != null) {
+            DriverManager.getDriver().quit();
+        }
     }
 }

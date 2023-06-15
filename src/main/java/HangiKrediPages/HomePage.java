@@ -63,7 +63,6 @@ public class HomePage extends SeleniumBasePage {
         DriverManager.getDriver().navigate().to(url);
         Thread.sleep(5000);
         System.out.println(url + "  --> Sayfasinda land olunacak.");
-
         return this;
     }
 

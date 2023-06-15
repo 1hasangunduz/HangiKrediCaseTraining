@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="2" name="Suite_1" verbose="4">
+    <listeners>
+        <listener class-name="Listener.ExtentITestListenerClassAdapter"/>
+    </listeners>
+
+    <test name="Suit_1" >
+
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="HangiKrediPages.HomePageTests">
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
